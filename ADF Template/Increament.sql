@@ -13,13 +13,12 @@ CREATE PROCEDURE -- [schema].[procedure_name]
 AS
 
 BEGIN
+-- Additional Part Start....
     DECLARE @CurrentYear INT = YEAR(GETDATE());
-
     DECLARE @CurrentMonth INT = MONTH(GETDATE());
-
     DECLARE @CurrentDay INT = DAY(GETDATE());
- 
     DECLARE @MinDateMinusOneDay DATE;
+-- Additional Part End.....
 ```
 
 --------------------------------------------------
